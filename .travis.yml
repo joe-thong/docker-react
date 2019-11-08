@@ -19,5 +19,5 @@ deploy:
     secure: "$AWS_ACCESSKEY"
   secret_access_key:
     secure: "$AWS_SECRETKEY"
-  bucket_name: "elasticbeanstalk-us-east-1-559425326450"
+  bucket_name: "arn:aws:s3:::elasticbeanstalk-us-east-1-559425326450"
   bucket_path: "docker-react"
