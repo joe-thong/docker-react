@@ -1,4 +1,8 @@
-sudo: required
+os: 
+  - linux
+language:
+  - ruby
+
 services: 
   - docker
 
@@ -18,4 +22,4 @@ deploy:
   secret_access_key:
     secure: "$AWS_SECRETKEY"
   bucket_path: "docker-react"
-  bucket_name: "elasticbeanstalk-us-east-1-559425326450"
+  bucket: "elasticbeanstalk-us-east-1-559425326450"
